@@ -1,10 +1,10 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.10
 import PackageDescription
 
 let package = Package(
     name: "richiesdks-ios",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v15),
     ],
     products: [
         .library(
@@ -20,13 +20,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RichieSDK",
-            url: "https://github.com/richiefi/richiesdk-ios-test/releases/download/202208.603/richiesdk-ios-202208.603.zip",
-            checksum: "38c8a0f89136aa7ff7c343829b4f6c7edd5eeec751072f9239e708cce414b3ff"
+            url: "https://github.com/richiefi/richiesdk-ios-test/releases/download/202606.30.0/richiesdk-ios-202606.30.0.zip",
+            checksum: "60a7f4c67f8fa99825e0cdd0da315316a0dbe463c72445f144ad7c74496c3ce7"
         ),
         .binaryTarget(
             name: "RichieEditionsSDK",
-            url: "https://github.com/richiefi/richiesdk-ios-test/releases/download/202208.603/richieeditionssdk-ios-202208.603.zip",
-            checksum: "3a2fb71313b7bf73f378c3384a8f509feb04990ba56b9b0c6b508fdbdbb1f273"
+            url: "https://github.com/richiefi/richiesdk-ios-test/releases/download/202606.30.0/richieeditionssdk-ios-202606.30.0.zip",
+            checksum: "bfbd913cf7bcc75db338b1aeace61cd3d78de95cbfbd6b6496be139b230a6465"
         ),
     ]
 )
